@@ -1,6 +1,6 @@
 # leetcode 226 - Invert Binary Tree
 ## Approach 1: Recursive
-## C#
+### C#
 ```C#
 public TreeNode InvertTree(TreeNode root)
 {
@@ -15,7 +15,7 @@ public TreeNode InvertTree(TreeNode root)
     return root;
 }
 ```
-
+### Java
 ```Java
 public TreeNode InvertTree(TreeNode root) {
 	if(root == null) return root;
